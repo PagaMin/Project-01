@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+/* font-family: 'Hanken Grotesk', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.left {
+    border-radius: 1.6rem;
+    width: 300px;
+    height: 25rem;
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+}
+
+.right {
+    /* border-radius: 1.6rem; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    height: 25rem;
+    color: black;
+    background-color: #f0f8ff;
+    box-shadow: 7px 10px 16px -11px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+h1 {
+    color: #ccc;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+div .circle {
+    border-radius: 50%;
+    background-color: hsl(241, 81%, 54%);
+    height: 150px;
+    width: 150px;
+    margin: 30px auto 30px auto;
+}
+
+div .num1 {
+    font-size: 4rem;
+    font-weight: 800;
+    position: relative;
+    top: 22px;
+    color: white;
+}
+
+div .num2 {
+    color: #888888;
+    position: relative;
+    top: 12px;
+    font-weight: 700;
+}
+
+.great {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-top: -10px;
+    color: white;
+}
+
+.down {
+    margin: 0 30px 0 30px;
+    color: #c0bfbf;
+    font-weight: 700;
+}
+
+h2 {
+    color: hsl(224, 30%, 27%);
+    text-align: start;
+    margin: 2rem 0 20px 30px;
+    font-size: 1.4rem;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.memory {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+img {
+    margin-right: -40px;
+}
+
+
+button {
+    margin-top: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 250px;
+    border-radius: 40px;
+    height: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+
+}
+
+@media (max-width: 495px) {
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
